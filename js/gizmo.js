@@ -8,6 +8,7 @@ $(document).ready(function(){
 
   $("#testForm").submit(function(e){
     e.preventDefault();
+    
     var $form = $(this),
         user = $form.find("input[name='userName']").val(),
         pass = $form.find("input[name='password']").val(),
