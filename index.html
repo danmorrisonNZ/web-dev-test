@@ -13,18 +13,17 @@
         <h1>Dan Morrison ShowGizmo Development Test</h1>
       </header>
       <section>
-        <p>Please enter your username and password</p>
-        <form action="/" id="testForm">
-          <h4>Username:</h4><input type ="text" name="userName" placeholder="Type your username here">
-          <h4>Password:</h4><input type="password" name="password" placeholder="Type your password here"><br>
-          <input type ="submit" name="submit" value="submit">
+        <p class="bodyCopy">Please enter your username and password</p>
+        <form action="https://web-dev-test.herokuapp.com/forms" id="testForm">
+          <h4 class="inline">username:</h4><input type ="text" name="userName" placeholder="Type your username here" class="formInput">
+          <h4 class="inline">password:</h4><input type="password" name="password" placeholder="Type your password here" class="formInput"><br>
+          <input type ="submit" name="submit" value="submit" id="submit">
         </form>
-        <div id="output">
-        </div>
+        <h1 class="inline">Username Entered:</h1>
+        <p class="inline" id="userOutput"></p><br>
+        <h1 class="inline">Password Entered:</h1>
+        <p class="inline" id="userPass"></p>
       </section>
-      <footer>
-        <hr>
-      </footer>
     </div>
   </body>
 </html>

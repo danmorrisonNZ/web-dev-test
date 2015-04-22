@@ -1,8 +1,65 @@
-body{
+body, html{
   font-family:'arial', sans-serif;
+  height:100%;
+  width:100%;
+  margin:0;
 }
 
 #container{
-  width:60%;
+  width:70%;
+  height:100%;
   margin:0 auto;
+  text-align:center;
+  margin-top:15%;
+
+}
+
+.inline{
+  display:inline-block;
+  font-size:2.5vh;
+}
+
+h1{
+  font-size:4vh;
+}
+
+.formInput{
+  margin:0px 15px 0px 5px;
+  border:none;
+  background-color:#F0F0F0;
+  padding:8px;
+  border-radius:3px;
+  display:inline-block;
+}
+
+input[type=submit]{
+  border:none;
+  border-radius:4px;
+  background-color:#47D147;
+  font-size:14px;
+  font-weight:bold;
+  color:white;
+  padding:7px 10px 7px 10px;
+  cursor:pointer;
+  margin-top:10px;
+  -webkit-transtion:0.3s;
+  transition:0.3s;
+}
+
+input[type=submit]:hover{
+  background-color:#329232;
+  -webkit-transtion:0.3s;
+  transition:0.3s;
+}
+
+.bodyCopy{
+  margin-top:30px;
+}
+
+#userOutput{
+  color:grey;
+}
+
+#userPass{
+  color:#FFE6E6;
 }
